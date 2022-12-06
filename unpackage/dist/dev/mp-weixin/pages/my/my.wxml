@@ -1,0 +1,1 @@
+<view><view><canvas style="width:100vh;height:100vh;background:#000" canvas-id="firstCanvas" id="firstCanvas"></canvas></view></view>

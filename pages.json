@@ -1,0 +1,41 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "干饭时间"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "小何",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "干饭时间",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"selectedColor": "#36ea36b8",
+		"color": "Pink",
+		"list": [
+			{
+				"iconPath": "static/tabBar/eat1.png",
+				"selectedIconPath": "static/tabBar/eat2.png",
+				"pagePath": "pages/index/index",
+				"text": "吃饭"
+			},
+			{
+				"iconPath": "static/tabBar/my1.png",
+				"selectedIconPath": "static/tabBar/my2.png",
+				"pagePath": "pages/my/my",
+				"text": "小何"
+			}
+		]
+	}
+}

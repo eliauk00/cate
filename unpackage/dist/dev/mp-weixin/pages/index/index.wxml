@@ -1,0 +1,1 @@
+<view class="content data-v-57280228"><view class="text-area data-v-57280228"><text class="title data-v-57280228">{{a}}</text><view class="list data-v-57280228"><view wx:for="{{b}}" wx:for-item="item" class="{{['list-box', 'data-v-57280228', item.b && 'list-box-1']}}">{{item.a}}</view></view><view class="button data-v-57280228" bindtap="{{c}}"> 点击抽奖 </view></view></view>
