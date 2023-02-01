@@ -51,7 +51,7 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  padding: 15px 18px;
+  padding: 30rpx 36rpx;
   box-sizing: border-box;
 }
 .button.data-v-57280228 {
@@ -64,7 +64,7 @@
   line-height: 1.5em;
 }
 .list-box.data-v-57280228 {
-  padding: 20px;
+  padding: 40rpx;
   transition-duration: 0.5s;
 }
 .list-box-1.data-v-57280228 {

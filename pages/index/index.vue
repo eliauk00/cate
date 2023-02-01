@@ -72,9 +72,9 @@
 	.logo {height: 200rpx;width: 200rpx;margin-top: 200rpx;margin-left: auto;margin-right: auto;margin-bottom: 50rpx;}
 	.text-area {display: flex;flex-direction: column;width: 100%;}
 	.title {font-size: 36rpx;color: #8f8f94;display: flex;}
-	.list{width: 100%;display: flex;flex-wrap: wrap;padding: 15px 18px;box-sizing: border-box;}
+	.list{width: 100%;display: flex;flex-wrap: wrap;padding: 30rpx 36rpx;box-sizing: border-box;}
 	.button{width: 5em;text-align: center;margin: auto;background: #00d0ff;color: #fff;height: 1.5em;line-height: 1.5em;}
-	.list-box{padding: 20px; transition-duration: .5s;
+	.list-box{padding: 40rpx; transition-duration: .5s;
 		&-1{color: #00aaff;transform: rotate(360deg);}
 		&-2{color: #00aaff;animation:rotate 1s linear;}
 	}
