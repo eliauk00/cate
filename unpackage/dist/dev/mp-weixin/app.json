@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/my/my"
+    "pages/my/my",
+    "pages/we/we"
   ],
   "window": {
     "navigationBarTextStyle": "black",
@@ -24,6 +25,12 @@
         "selectedIconPath": "static/tabBar/my2.png",
         "pagePath": "pages/my/my",
         "text": "小何"
+      },
+      {
+        "iconPath": "static/tabBar/house1.png",
+        "selectedIconPath": "static/tabBar/house2.png",
+        "pagePath": "pages/we/we",
+        "text": "我们"
       }
     ]
   },

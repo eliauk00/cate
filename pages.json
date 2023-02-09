@@ -13,7 +13,17 @@
 				"navigationStyle": "custom"
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/we/we",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我们",
+                "enablePullDownRefresh": false,
+					 "navigationStyle": "custom"
+            }
+            
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "干饭时间",
@@ -35,6 +45,12 @@
 				"selectedIconPath": "static/tabBar/my2.png",
 				"pagePath": "pages/my/my",
 				"text": "小何"
+			},
+			{
+				"iconPath": "static/tabBar/house1.png",
+				"selectedIconPath": "static/tabBar/house2.png",
+				"pagePath": "pages/we/we",
+				"text": "我们"
 			}
 		]
 	}
