@@ -1,5 +1,5 @@
 "use strict";
-var common_vendor = require("../../common/vendor.js");
+const common_vendor = require("../../common/vendor.js");
 const _sfc_main = {
   data() {
     return {
@@ -55,11 +55,12 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     b: common_vendor.f($data.list, (item, index, i0) => {
       return {
         a: common_vendor.t(item),
-        b: $data.id === index ? 1 : ""
+        b: $data.id === index ? 1 : "",
+        c: index
       };
     }),
     c: common_vendor.o((...args) => $options.prepare && $options.prepare(...args))
   };
 }
-var MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-57280228"], ["__file", "E:/poject_t/my/\u5C0F\u4F55\u7684\u5C0F\u5356\u90E8/cate/pages/index/index.vue"]]);
+const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-1cf27b2a"], ["__file", "D:/my/xiaohe/cate/pages/index/index.vue"]]);
 wx.createPage(MiniProgramPage);

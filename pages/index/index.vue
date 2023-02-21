@@ -3,7 +3,7 @@
 		<view class="text-area">
 			<text class="title">{{title}}</text>
 			<view class="list">
-				<view class="list-box" :class="{'list-box-1':id===index}" v-for="(item,index) in list">
+				<view class="list-box" :class="{'list-box-1':id===index}" v-for="(item,index) in list" :key="index">
 					{{item}}
 				</view>
 			</view>
