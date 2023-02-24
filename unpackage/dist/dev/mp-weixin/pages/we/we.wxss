@@ -49,9 +49,6 @@
   animation: action-0e766ef7 20s linear infinite;
   align-items: center;
 }
-.img-3d.data-v-0e766ef7:hover {
-  animation-play-state: paused;
-}
 @keyframes action-0e766ef7 {
 from {
     transform: rotateY(0deg);

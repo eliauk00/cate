@@ -6231,4 +6231,6 @@ exports._export_sfc = _export_sfc;
 exports.createSSRApp = createSSRApp;
 exports.f = f;
 exports.o = o;
+exports.ref = ref;
 exports.t = t;
+exports.unref = unref;
